@@ -14,10 +14,10 @@ Here are sections headers that will be used to reference location of destination
 
 ## Description
 For this project I used
-` Moment.js => for the dates
-  Axios
-  React
-  Material UI for the Design
+- Moment.js => for the dates
+- Axios
+- React
+- Material UI for the Design
 `
 
 
