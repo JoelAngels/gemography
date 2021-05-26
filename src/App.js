@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Loading from "./Components/Loading";
+import RepoList from "./components/RepoList";
+import Loading from "./components/Loading";
 import axios from "axios";
 import moment from "moment";
 
@@ -47,6 +48,7 @@ const App = () => {
 
   return (
     <div>
+      <RepoList repo={state.repo} />
       <Loading />
     </div>
   );

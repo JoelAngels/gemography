@@ -15,6 +15,7 @@ import {
 const styles = (theme) => ({
   root: {
     flexGrow: 1,
+    fontFamily: "Poppins, sans-serif",
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -33,9 +34,14 @@ const styles = (theme) => ({
   },
   chip: {
     margin: theme.spacing.unit,
+    fontFamily: "Poppins, sans-serif",
   },
   link: {
     margin: theme.spacing.unit,
+    fontFamily: "Poppins, sans-serif",
+  },
+  typo: {
+    fontFamily: "Poppins, sans-serif",
   },
 });
 
@@ -102,7 +108,7 @@ const Repo = ({
                   clickable
                   variant="outlined"
                 />
-                <Typography color="primary" inline>
+                <Typography color="primary" inline className={classes.typo}>
                   Submitted {moment(created_at).fromNow()} By {owner}
                 </Typography>
               </Grid>
