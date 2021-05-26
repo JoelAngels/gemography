@@ -13,20 +13,15 @@ Here are sections headers that will be used to reference location of destination
 ---
 
 ## Description
-For this project I used
-- Moment.js => for the dates
-- Axios
-- React
-- Material UI for the Design
-`
-
+Built the project that displays the list of the most starred Github repos that were created in the last 30.
+When you click on any repo, it will display its github repository in github
 
 
 #### Technologies
 
 - ⚛ React / axios / API / Hooks /
 - 🖥 HTML / CSS
-- 🎨 Material UI / React Spinners / React AOS
+- 🎨 Material UI / MomentJS
 
 [Back To The Top](#Gemography-React-Application)
 
