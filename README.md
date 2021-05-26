@@ -1,6 +1,6 @@
 # Gemography-React-Application
 
-Live Application - [Scalio React App](https://scalio-react.netlify.app/)
+Live Application - [Gemography React App](https://gemography-react.netlify.app/)
 
 ### Table of Contents
 
